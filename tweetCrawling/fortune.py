@@ -1,9 +1,9 @@
 import tweepy
 
-API_KEY = 'uFKPfqWUOCxAR1zhvtOCxgfuQ'
-API_SECRET = 'uhJdWRE8rm4gFJDsfIQL9EndsAyppMIc2DLHmILdOkROoem6b2'
-ACCESS_KEY = '1429214635-iqWhUIQ8fL5RRgm50CIVteX6iIUQvMCxHA49rxV'
-ACCESS_SECRET = 'eERw0vcSCCt5W9ktAmVr9uaynMCmPTgEofmpisZ0pW7AO'
+API_KEY = 'api_key'
+API_SECRET = 'api_secret'
+ACCESS_KEY = 'access_key'
+ACCESS_SECRET = 'access_secret'
 
 oAuth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 oAuth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
