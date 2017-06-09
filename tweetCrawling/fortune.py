@@ -10,8 +10,10 @@ oAuth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth_handler= oAuth, api_root = '/1.1')
 
 if __name__ == "__main__":
+    userID = 347669450 #@fortune_cookieb
     # userID = 365546416 #@fortune_cookie2
-    userID = 990433830 #@FortuneCookie_5
+    # userID = 498776587 #@fortune_cookie4
+    # userID = 990433830 #@FortuneCookie_5
     user = api.get_user(userID)
     timeline = api.user_timeline(userID, count = 1000)
 
